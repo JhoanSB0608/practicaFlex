@@ -1,0 +1,1 @@
+![](https://github.com/JhoanSB0608/practicaFlex/blob/ejercicio3/storage/img/ejercicio2.png)
