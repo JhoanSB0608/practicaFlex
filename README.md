@@ -1,1 +1,1 @@
-![](https://github.com/JhoanSB0608/practicaFlex/blob/ejercicio3/storage/img/ejercicio2.png)
+![](https://github.com/JhoanSB0608/practicaFlex/blob/ejercicio2/storage/img/ejercicio2.png)
