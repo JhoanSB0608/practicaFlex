@@ -3,26 +3,24 @@
 
 HTML:
 
-Se define un documento HTML5 con la etiqueta <!DOCTYPE html>.
+Se define un documento HTML5 con la etiqueta '<!DOCTYPE html>'.
 
 Se especifica el idioma del documento como inglés (lang="en").
 
-En el encabezado (<head>), se establecen metadatos como la codificación de caracteres y la escala inicial de la vista.
+En el encabezado ('<head>'), se establecen metadatos como la codificación de caracteres y la escala inicial de la vista.
 
 Se enlaza un archivo de estilo CSS externo (style.css) y un archivo de script JavaScript externo (main.js).
 
-En el cuerpo del documento (<body>), se encuentra la estructura del encabezado.
+En el cuerpo del documento ('<body>'), se encuentra la estructura del encabezado.
 
-El encabezado (<header>) contiene tres elementos principales:
+El encabezado ('<header>') contiene tres elementos principales:
 
-Un contenedor para el logotipo (<div class="logo">) que incluye una imagen.
+Un contenedor para el logotipo ('<div class="logo">') que incluye una imagen.
 
-Un menú de navegación (<nav>) que consiste en una lista desordenada (<ul>) con cuatro elementos de lista (<li>), cada uno conteniendo un 
-enlace (<a>).
+Un menú de navegación ('<nav>') que consiste en una lista desordenada ('<ul>') con cuatro elementos de lista ('<li>'), cada uno conteniendo un enlace ('<a>').
 
 
-Dos contenedores (<div class="language-container1"> y <div class="language-container2">) para la selección de idioma, cada uno con su 
-respectivo elemento de idioma (<div class="language1"> y <div class="language2">).
+Dos contenedores ('<div class="language-container1">' y '<div class="language-container2">') para la selección de idioma, cada uno con su respectivo elemento de idioma ('<div class="language1">' y '<div class="language2">').
 
 
 CSS:
