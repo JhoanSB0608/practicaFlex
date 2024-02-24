@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.gallery1 {
+    flex: 0 0 40%;
+    margin-right: 20px;
+    overflow-y: auto;
+}
+
+.gallery2 {
+    flex: 0 0 60%;
+    overflow-y: auto;
+}
+
+.subgallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-right: 50px; 
+}
+
+.gallery1 .subgallery img {
+    width: calc(50% - 10px);
+    height: auto;
+    margin-bottom: 12px; 
+    margin-right: 7px;
+    box-shadow: 4px 4px 12px #898989;
+}
+
+.gallery2 .subgallery img {
+    width: calc(33.33% - 10px);
+    height: auto;
+    margin-bottom: 12px; 
+    margin-right: 6px;
+    box-shadow: 4px 4px 12px #898989;
+}
