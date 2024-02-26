@@ -8,6 +8,7 @@
     padding: 30px 30px;
     font-size: 32px;
 }
+
 body {
     display: flex;
     justify-content: center;
@@ -15,6 +16,7 @@ body {
     height: 100vh;
     background-color: #f6ebee;
 }
+
 p {
     margin: 3rem 0 0;
 }
