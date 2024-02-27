@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     border: 1px solid black; 
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -87,7 +87,7 @@ body {
 .small-box {
     border: 1px solid black; 
     padding: 15px;
-    height: 80%;
+    height: 70%;
     box-sizing: border-box;
 }
 
