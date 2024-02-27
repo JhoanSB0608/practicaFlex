@@ -1,12 +1,16 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
+    width: 100%;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     border: 1px solid black; 
+    height: 100vh;
+    width: 100%;
 }
 
 .main-container,
@@ -19,14 +23,21 @@ body {
 .sub-container {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .box {
     border: 1px solid black; 
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
+.box-footer {
+    border: 1px solid black; 
+    padding: 10px;
+    margin-bottom: 15px;
+    flex: 1;
+}
 .circle-container {
     border: 1px solid black; 
     padding: 10px;
@@ -61,8 +72,9 @@ body {
 
 .grid-item {
     border: 1px solid black; 
-    padding: 65px;
-    text-align: center;
+    padding: 20px;
+    text-align: start;
+    font-size: 25px;
 }
 
 .big-box {
@@ -74,8 +86,8 @@ body {
 
 .small-box {
     border: 1px solid black; 
-    padding: 130px;
-    height: 100%;
+    padding: 15px;
+    height: 80%;
     box-sizing: border-box;
 }
 
@@ -84,6 +96,23 @@ body {
     flex-direction: column;
 }
 
+.items-container .box p {
+    display: flex;
+    justify-content: space-between;
+}
 select {
     align-self: flex-end; 
 }
+.progress {
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 20px;
+    background-color: #4caf50;
+    transition: width 0.3s ease-in-out;
+  }
+  
