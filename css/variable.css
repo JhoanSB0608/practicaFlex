@@ -2,7 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #94d9e9;
+    background-color: #93d9e9;
 }
 
 .pricing-box {
@@ -21,7 +21,7 @@ body, html {
     margin: 0 10px; 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 .pricing-header {
@@ -43,11 +43,15 @@ body, html {
 }
 
 .pricing-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     text-align: center;
     padding: 20px;
     background-color: #f9f9f9;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    flex: 1
 }
 
 .cuadro-footer {
@@ -55,7 +59,7 @@ body, html {
     padding: 5px 10px;
     border-radius: 5px;
     display: inline-block;
-    background-color: lightgray;
+    background-color: #e6e6e6;
     margin: 0 auto; 
 }
 
