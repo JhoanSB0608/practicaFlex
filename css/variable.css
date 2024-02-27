@@ -1,12 +1,7 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 body {
     overflow-y: scroll;
     height: 1000px;
+    width: 1000px;
 }
 
 header {
@@ -55,7 +50,8 @@ header {
 aside {
     padding: 10px;
     background: #cccccc56;
-    width: 70vh;
+    width: 30vh;
+    height: 100%;
 }
 
 main {
@@ -88,4 +84,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.img200 {
+    height: 200px;
 }
