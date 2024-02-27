@@ -15,11 +15,18 @@ body {
 
 .main-container,
 .secondary-container {
-    flex: 1;
+
     padding: 20px;
     box-sizing: border-box;
 }
 
+.main-container {
+    width: 40%;
+}
+
+.secondary-container {
+    width: 60%;
+}
 .sub-container {
     display: flex;
     flex-direction: column;
